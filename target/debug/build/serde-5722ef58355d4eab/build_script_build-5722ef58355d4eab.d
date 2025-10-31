@@ -1,0 +1,5 @@
+E:\workspace\rust-playground\target\debug\build\serde-5722ef58355d4eab\build_script_build-5722ef58355d4eab.d: C:\Users\vitor\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\build.rs
+
+E:\workspace\rust-playground\target\debug\build\serde-5722ef58355d4eab\build_script_build-5722ef58355d4eab.exe: C:\Users\vitor\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\build.rs
+
+C:\Users\vitor\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\build.rs:

@@ -1,0 +1,890 @@
+   0.052535300s  INFO prepare_target{force=false package_id=todo_cli v0.1.0 (E:\workspace\rust-playground) target="todo_cli"}: cargo::core::compiler::fingerprint: fingerprint error for todo_cli v0.1.0 (E:\workspace\rust-playground)/Check { test: false }/TargetInner { name: "todo_cli", doc: true, ..: with_path("E:\\workspace\\rust-playground\\src\\main.rs", Edition2021) }
+   0.052621800s  INFO prepare_target{force=false package_id=todo_cli v0.1.0 (E:\workspace\rust-playground) target="todo_cli"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\todo_cli-6aee42fd9f9fa160\bin-todo_cli`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  18: main
+  19: __tmainCRTStartup
+  20: mainCRTStartup
+  21: <unknown>
+  22: <unknown>
+   0.063439200s  INFO prepare_target{force=false package_id=clap v4.5.51 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.5.51/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.5.51\\src\\lib.rs", Edition2021) }
+   0.063488000s  INFO prepare_target{force=false package_id=clap v4.5.51 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\clap-c4fe705756ea74d7\lib-clap`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.064196700s  INFO prepare_target{force=false package_id=clap_builder v4.5.51 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.5.51/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.5.51\\src\\lib.rs", Edition2021) }
+   0.064233500s  INFO prepare_target{force=false package_id=clap_builder v4.5.51 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\clap_builder-eda091fde9e97b84\lib-clap_builder`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.065488600s  INFO prepare_target{force=false package_id=anstream v0.6.21 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint error for anstream v0.6.21/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstream-0.6.21\\src\\lib.rs", Edition2021) }
+   0.065542900s  INFO prepare_target{force=false package_id=anstream v0.6.21 target="anstream"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\anstream-98ae3fadeb4d7b6c\lib-anstream`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  21: main
+  22: __tmainCRTStartup
+  23: mainCRTStartup
+  24: <unknown>
+  25: <unknown>
+   0.067502300s  INFO prepare_target{force=false package_id=anstyle v1.0.13 target="anstyle"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle v1.0.13/Check { test: false }/TargetInner { ..: lib_target("anstyle", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-1.0.13\\src\\lib.rs", Edition2021) }
+   0.067568500s  INFO prepare_target{force=false package_id=anstyle v1.0.13 target="anstyle"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\anstyle-1d963867bfc0cd71\lib-anstyle`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.068335200s  INFO prepare_target{force=false package_id=anstyle-parse v0.2.7 target="anstyle_parse"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-parse v0.2.7/Check { test: false }/TargetInner { ..: lib_target("anstyle_parse", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-parse-0.2.7\\src\\lib.rs", Edition2021) }
+   0.068380000s  INFO prepare_target{force=false package_id=anstyle-parse v0.2.7 target="anstyle_parse"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\anstyle-parse-b547dd486252260d\lib-anstyle_parse`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.069414900s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint: fingerprint error for utf8parse v0.2.2/Check { test: false }/TargetInner { ..: lib_target("utf8parse", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\utf8parse-0.2.2\\src\\lib.rs", Edition2018) }
+   0.069463000s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\utf8parse-a241573a9d2cfe7e\lib-utf8parse`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  23: main
+  24: __tmainCRTStartup
+  25: mainCRTStartup
+  26: <unknown>
+  27: <unknown>
+   0.070594100s  INFO prepare_target{force=false package_id=anstyle-query v1.1.4 target="anstyle_query"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-query v1.1.4/Check { test: false }/TargetInner { ..: lib_target("anstyle_query", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-query-1.1.4\\src\\lib.rs", Edition2021) }
+   0.070639100s  INFO prepare_target{force=false package_id=anstyle-query v1.1.4 target="anstyle_query"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\anstyle-query-633ab2e52258bd5f\lib-anstyle_query`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.071461800s  INFO prepare_target{force=false package_id=windows-sys v0.60.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.60.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.60.2\\src\\lib.rs", Edition2021) }
+   0.071509100s  INFO prepare_target{force=false package_id=windows-sys v0.60.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\windows-sys-e0ede3bbb8b34c0d\lib-windows_sys`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  23: main
+  24: __tmainCRTStartup
+  25: mainCRTStartup
+  26: <unknown>
+  27: <unknown>
+   0.072772500s  INFO prepare_target{force=false package_id=windows-targets v0.53.5 target="windows_targets"}: cargo::core::compiler::fingerprint: fingerprint error for windows-targets v0.53.5/Check { test: false }/TargetInner { ..: lib_target("windows_targets", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-targets-0.53.5\\src\\lib.rs", Edition2021) }
+   0.072827300s  INFO prepare_target{force=false package_id=windows-targets v0.53.5 target="windows_targets"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\windows-targets-4f63884c266232b6\lib-windows_targets`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_ws
+  15: cargo::ops::cargo_compile::compile_with_exec
+  16: cargo::ops::cargo_compile::compile
+  17: cargo::commands::check::exec
+  18: <cargo::cli::Exec>::exec
+  19: cargo::cli::main
+  20: cargo::main
+  21: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  22: std::rt::lang_start::<()>::{closure#0}
+  23: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  24: main
+  25: __tmainCRTStartup
+  26: mainCRTStartup
+  27: <unknown>
+  28: <unknown>
+   0.073637300s  INFO prepare_target{force=false package_id=windows_x86_64_gnu v0.53.1 target="windows_x86_64_gnu"}: cargo::core::compiler::fingerprint: fingerprint error for windows_x86_64_gnu v0.53.1/Check { test: false }/TargetInner { ..: lib_target("windows_x86_64_gnu", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_gnu-0.53.1\\src\\lib.rs", Edition2021) }
+   0.073681300s  INFO prepare_target{force=false package_id=windows_x86_64_gnu v0.53.1 target="windows_x86_64_gnu"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\windows_x86_64_gnu-5bcf98f7bb90b75e\lib-windows_x86_64_gnu`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  15: cargo::ops::cargo_compile::compile_ws
+  16: cargo::ops::cargo_compile::compile_with_exec
+  17: cargo::ops::cargo_compile::compile
+  18: cargo::commands::check::exec
+  19: <cargo::cli::Exec>::exec
+  20: cargo::cli::main
+  21: cargo::main
+  22: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  23: std::rt::lang_start::<()>::{closure#0}
+  24: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  25: main
+  26: __tmainCRTStartup
+  27: mainCRTStartup
+  28: <unknown>
+  29: <unknown>
+   0.076259100s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.10 target="anstyle_wincon"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-wincon v3.0.10/Check { test: false }/TargetInner { ..: lib_target("anstyle_wincon", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-wincon-3.0.10\\src\\lib.rs", Edition2021) }
+   0.076295300s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.10 target="anstyle_wincon"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\anstyle-wincon-4635caf98bf9d5d7\lib-anstyle_wincon`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.076879700s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("once_cell_polyfill", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   0.076989100s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\once_cell_polyfill-753331d5937cd6bd\lib-once_cell_polyfill`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  23: main
+  24: __tmainCRTStartup
+  25: mainCRTStartup
+  26: <unknown>
+  27: <unknown>
+   0.078031000s  INFO prepare_target{force=false package_id=colorchoice v1.0.4 target="colorchoice"}: cargo::core::compiler::fingerprint: fingerprint error for colorchoice v1.0.4/Check { test: false }/TargetInner { ..: lib_target("colorchoice", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\colorchoice-1.0.4\\src\\lib.rs", Edition2021) }
+   0.078083700s  INFO prepare_target{force=false package_id=colorchoice v1.0.4 target="colorchoice"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\colorchoice-7cdb615a3a228139\lib-colorchoice`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.078547000s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for is_terminal_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("is_terminal_polyfill", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\is_terminal_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   0.078567600s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\is_terminal_polyfill-aa9e754777ab1472\lib-is_terminal_polyfill`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.079102000s  INFO prepare_target{force=false package_id=clap_lex v0.7.6 target="clap_lex"}: cargo::core::compiler::fingerprint: fingerprint error for clap_lex v0.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_lex", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_lex-0.7.6\\src\\lib.rs", Edition2021) }
+   0.079125400s  INFO prepare_target{force=false package_id=clap_lex v0.7.6 target="clap_lex"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\clap_lex-2c56479ee358e05e\lib-clap_lex`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  21: main
+  22: __tmainCRTStartup
+  23: mainCRTStartup
+  24: <unknown>
+  25: <unknown>
+   0.079675900s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint: fingerprint error for strsim v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("strsim", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\strsim-0.11.1\\src\\lib.rs", Edition2015) }
+   0.079700600s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\strsim-8390e42ad74839cc\lib-strsim`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  21: main
+  22: __tmainCRTStartup
+  23: mainCRTStartup
+  24: <unknown>
+  25: <unknown>
+   0.082579100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.082625100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\serde-0eeb378a0693c1d6\lib-serde`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.084302500s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.084338000s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\serde_core-c878e17cf31169a7\lib-serde_core`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.086071000s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
+   0.086111700s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\serde_json-a7f312b8faced8c2\lib-serde_json`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.086558500s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.15/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.15\\src\\lib.rs", Edition2018) }
+   0.086582400s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\itoa-c7d2bc0c371170d6\lib-itoa`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.086983700s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.7.6\\src\\lib.rs", Edition2021) }
+   0.087006100s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\memchr-30681e2c7c8b134a\lib-memchr`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.087702400s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.20/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\vitor\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.20\\src\\lib.rs", Edition2018) }
+   0.087728600s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\ryu-3bd9188d6c4fc1be\lib-ryu`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.089770800s  INFO prepare_target{force=false package_id=todo_cli v0.1.0 (E:\workspace\rust-playground) target="todo_cli"}: cargo::core::compiler::fingerprint: fingerprint error for todo_cli v0.1.0 (E:\workspace\rust-playground)/Check { test: true }/TargetInner { name: "todo_cli", doc: true, ..: with_path("E:\\workspace\\rust-playground\\src\\main.rs", Edition2021) }
+   0.089881400s  INFO prepare_target{force=false package_id=todo_cli v0.1.0 (E:\workspace\rust-playground) target="todo_cli"}: cargo::core::compiler::fingerprint:     err: failed to read `E:\workspace\rust-playground\target\debug\.fingerprint\todo_cli-3731232da9ccc65e\test-bin-todo_cli`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library\core\src\ops/function.rs:287:21
+  18: main
+  19: __tmainCRTStartup
+  20: mainCRTStartup
+  21: <unknown>
+  22: <unknown>
+    Checking once_cell_polyfill v1.70.2
+    Checking anstyle v1.0.13
+    Checking utf8parse v0.2.2
+    Checking is_terminal_polyfill v1.70.2
+    Checking colorchoice v1.0.4
+    Checking clap_lex v0.7.6
+    Checking strsim v0.11.1
+    Checking windows_x86_64_gnu v0.53.1
+    Checking serde_core v1.0.228
+    Checking memchr v2.7.6
+    Checking itoa v1.0.15
+    Checking ryu v1.0.20
+    Checking windows-targets v0.53.5
+    Checking anstyle-parse v0.2.7
+    Checking windows-sys v0.60.2
+    Checking anstyle-wincon v3.0.10
+    Checking anstyle-query v1.1.4
+    Checking anstream v0.6.21
+    Checking clap_builder v4.5.51
+    Checking serde_json v1.0.145
+    Checking serde v1.0.228
+    Checking clap v4.5.51
+    Checking todo_cli v0.1.0 (E:\workspace\rust-playground)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.86s
